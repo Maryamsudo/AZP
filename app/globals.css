@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Base styles — Tailwind will handle dark mode */
+body {
+  @apply bg-white text-gray-900 transition-colors duration-300 font-sans;
+}
+
+
+
+/* Remove extra background + color variables — these were overriding Tailwind */
